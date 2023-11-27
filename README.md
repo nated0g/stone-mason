@@ -22,6 +22,18 @@ hematite = "0.1.0"
 
 ## Usage
 
+You can run the following example with the following command:
+
+```bash
+cargo run --example anthropic
+```
+
+> [!NOTE]
+> You'll need valid AWS credentials with at least `bedrock:InvokeModel` permissions in your environment, as well as to
+> have configured [model access](https://docs.aws.amazon.com/bedrock/latest/userguide/model-access.html) for the particular 
+> model you're trying to use.
+
+
 ```rust
 use aws_sdk_bedrockruntime::primitives::Blob;
 use aws_sdk_bedrockruntime::Client;
