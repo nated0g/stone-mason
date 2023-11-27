@@ -1,5 +1,5 @@
 [package]
-name = "stone_mason"
+name = "stone-mason"
 authors = ["Nate Usher"]
 version = "0.1.0"
 edition = "2021"
