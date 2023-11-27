@@ -1,7 +1,9 @@
 [package]
 name = "stone_mason"
+authors = ["Nate Usher"]
 version = "0.1.0"
 edition = "2021"
+repository = "https://github.com/nated0g/stone-mason"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
