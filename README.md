@@ -13,12 +13,7 @@ This library is still very early in its development, much of it has not been pro
 
 ## Installation
 
-Add this to your Cargo.toml:
-
-```toml
-[dependencies]
-hematite = "0.1.0"
-```
+TODO
 
 ## Usage
 
