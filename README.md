@@ -1,5 +1,7 @@
 # Hematite
 
+![](https://github.com/nated0g/hematite/actions/workflows/rust.yml/badge.svg)
+
 Hematite is a Rust library to simplify using the [Amazon Bedrock](https://aws.amazon.com/bedrock/) Rust SDK 
 [aws-sdk-bedrockruntime](https://docs.rs/aws-sdk-bedrockruntime/latest/aws_sdk_bedrockruntime/).
 
