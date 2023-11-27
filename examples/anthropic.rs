@@ -1,7 +1,7 @@
 use aws_sdk_bedrockruntime::primitives::Blob;
 use aws_sdk_bedrockruntime::Client;
 
-use hematite::{
+use stone_mason::{
     anthropic::{AnthropicModel::Claude, AnthropicParamsBuilder, AnthropicResponse},
     BaseModel, FromModelOutput,
     ModelVersion::*,

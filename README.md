@@ -1,8 +1,8 @@
-# Hematite
+# `stone-mason`
 
 ![](https://github.com/nated0g/hematite/actions/workflows/rust.yml/badge.svg)
 
-Hematite is a Rust library to simplify using the [Amazon Bedrock](https://aws.amazon.com/bedrock/) Rust SDK 
+`stone-mason` is a Rust library to simplify using the [Amazon Bedrock](https://aws.amazon.com/bedrock/) Rust SDK 
 [aws-sdk-bedrockruntime](https://docs.rs/aws-sdk-bedrockruntime/latest/aws_sdk_bedrockruntime/).
 
 This library is still very early in its development, much of it has not been properly tested.
@@ -35,7 +35,7 @@ cargo run --example anthropic
 use aws_sdk_bedrockruntime::primitives::Blob;
 use aws_sdk_bedrockruntime::Client;
 
-use hematite::{
+use stone_mason::{
     anthropic::{AnthropicModel::Claude, AnthropicParamsBuilder, AnthropicResponse},
     BaseModel, FromModelOutput,
     ModelVersion::*,
@@ -49,7 +49,7 @@ async fn main() {
 
     let model = BaseModel::Anthropic(Claude(V2));
 
-    let prompt = "Outline a README.md file for an open source library called Hematite, which \
+    let prompt = "Outline a README.md file for an open source library called stone-mason, which \
     is for working with Amazon Bedrock in Rust.";
 
     let formatted_prompt = format!("\n\nHuman: {}\n\nAssistant:", prompt);
