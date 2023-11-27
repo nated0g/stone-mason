@@ -15,7 +15,11 @@ This library is still very early in its development, much of it has not been pro
 
 ## Installation
 
-TODO
+Add the crate to your `Cargo.toml`
+```toml
+[dependencies]
+"stone-mason" = "0.1.0"
+```
 
 ## Usage
 

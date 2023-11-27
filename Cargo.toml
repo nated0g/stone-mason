@@ -4,6 +4,9 @@ authors = ["Nate Usher"]
 version = "0.1.0"
 edition = "2021"
 repository = "https://github.com/nated0g/stone-mason"
+license = "MIT"
+license-file = "LICENSE"
+description = "stone-mason is a library to simplify using the Amazon Bedrock Rust SDK aws-sdk-bedrockruntime."
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
